@@ -8,7 +8,7 @@ import 'package:flutter/widgets.dart';
 
 //class NavigationBar extends StatelessWidget with DaoLinks
 
-class NavigationBar extends StatelessWidget {
+class BarraDeNavegacao extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     switch(ScreenType().getScreenType(context)) {

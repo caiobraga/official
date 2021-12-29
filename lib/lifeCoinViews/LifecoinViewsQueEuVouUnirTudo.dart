@@ -18,7 +18,7 @@ class LifeCoinViews extends StatelessWidget{
               (children:[
 
               BlankSpaceAtTheBeginning(),
-              NavigationBar(),
+              BarraDeNavegacao(),
               PrimeiraTelaQueAparece(),
               SegundaTelaQueAparece(),
               SegundaTelaQueAparecePartDeBaixo(),
