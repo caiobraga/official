@@ -4,14 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/ultils/screenType.dart';
 
-
 class TerceiraTelaQueAparece extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    switch(ScreenType().getScreenType(context)) {
-      case screenType.Celular : return _TerceiraTelaQueApareceCelular();
-      case screenType.Tablet : return _TerceiraTelaQueApareceTablet();
-      case screenType.Monitor : return _TerceiraTelaQueApareceMonitor();
+    switch (ScreenType().getScreenType(context)) {
+      case screenType.Celular:
+        return _TerceiraTelaQueApareceCelular();
+      case screenType.Tablet:
+        return _TerceiraTelaQueApareceTablet();
+      case screenType.Monitor:
+        return _TerceiraTelaQueApareceMonitor();
     }
   }
 }
@@ -32,86 +34,90 @@ class _TerceiraTelaQueApareceCelular extends StatelessWidget {
               height: 65,
               width: 750,
               child: Center(
-                  child:Text ('LIFECOIN', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 50.0,fontWeight: FontWeight.bold, ))
-              )),
-
-
-                SizedBox(
-                  height: 0,
-                  width: 50,
-                ),
-                SizedBox(
-                  height: 300,
-                  width: 200,
-                  child: Image.asset('ImagehandsUpCopy.jpeg'),
-                ),
-                SizedBox(
-                  height: 0,
-                  width: 100,
-                ),
-                Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-
-                    children: <Widget>[
-                      Text(
-                          '''PROJECT 
+                  child: Text('LIFECOIN',
+                      style: TextStyle(
+                        color: Color(0xff4cf2c7),
+                        fontSize: 50.0,
+                        fontWeight: FontWeight.bold,
+                      )))),
+          SizedBox(
+            height: 0,
+            width: 50,
+          ),
+          SizedBox(
+            height: 300,
+            width: 200,
+            child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+          ),
+          SizedBox(
+            height: 0,
+            width: 100,
+          ),
+          Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Text('''PROJECT 
 OBJECTIVES''',
-                          style: TextStyle(color: Color(0xff4cf2c7), fontSize: 45.0,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>MAKING THE CURRENT SOCIETY
+                style: TextStyle(
+                  color: Color(0xff4cf2c7),
+                  fontSize: 45.0,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(
+              height: espacoHorizontal,
+              width: 100,
+            ),
+            Text('''>MAKING THE CURRENT SOCIETY
  MORE EQUAL.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold,)
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>GIVE MORE OPPORTUNITIES TO 
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: tamanhoDaLetraDescricao,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(
+              height: espacoHorizontal,
+              width: 100,
+            ),
+            Text('''>GIVE MORE OPPORTUNITIES TO 
 PEOPLEIN NEED.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>REDUCE HUNGER                           ''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>BREAKING BARRIERS BETWEEN  
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: tamanhoDaLetraDescricao,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(
+              height: espacoHorizontal,
+              width: 100,
+            ),
+            Text('''>REDUCE HUNGER                           ''',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: tamanhoDaLetraDescricao,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(
+              height: espacoHorizontal,
+              width: 100,
+            ),
+            Text('''>BREAKING BARRIERS BETWEEN  
 COUNTRIES''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-
-                    ]
-                ),
-                SizedBox(
-                  height: 800,
-                  width: 50, //use the function do adapt screens
-                ),
-
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: tamanhoDaLetraDescricao,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(
+              height: espacoHorizontal,
+              width: 100,
+            ),
+          ]),
+          SizedBox(
+            height: 800,
+            width: 50, //use the function do adapt screens
+          ),
         ],
       ),
     );
   }
 }
-
 
 class _TerceiraTelaQueApareceTablet extends StatelessWidget {
   double espacoVertical = 19;
@@ -129,91 +135,92 @@ class _TerceiraTelaQueApareceTablet extends StatelessWidget {
               height: 110,
               width: 750, //use the function do adapt screens
               child: Center(
-                  child:Text ('LIFECOIN', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 80.0,fontWeight: FontWeight.bold, ))
-              )),
-
-          Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-
-              children: <Widget>[
-                SizedBox(
-                  height: 800,
-                  width: 50,
-                ),
-                SizedBox(
-                  height: 500,
-                  width: 406, //use the function do adapt screens
-                  child: Image.asset('ImagehandsUpCopy.jpeg'),
-                ),
-                SizedBox(
-                  height: 500,
-                  width: 62,
-                ),
-                Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-
-                    children: <Widget>[
-                      Text(
-                          '''PROJECT 
+                  child: Text('LIFECOIN',
+                      style: TextStyle(
+                        color: Color(0xff4cf2c7),
+                        fontSize: 80.0,
+                        fontWeight: FontWeight.bold,
+                      )))),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            SizedBox(
+              height: 800,
+              width: 50,
+            ),
+            SizedBox(
+              height: 500,
+              width: 406, //use the function do adapt screens
+              child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+            ),
+            SizedBox(
+              height: 500,
+              width: 62,
+            ),
+            Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+              Text('''PROJECT 
 OBJECTIVES''',
-                          style: TextStyle(color: Color(0xff4cf2c7), fontSize: 56.0,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>MAKING THE CURRENT SOCIETY
+                  style: TextStyle(
+                    color: Color(0xff4cf2c7),
+                    fontSize: 56.0,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>MAKING THE CURRENT SOCIETY
  MORE EQUAL.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold,)
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>GIVE MORE OPPORTUNITIES TO 
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>GIVE MORE OPPORTUNITIES TO 
 PEOPLEIN NEED.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>REDUCE HUNGER                           ''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>BREAKING BARRIERS BETWEEN  
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>REDUCE HUNGER                           ''',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>BREAKING BARRIERS BETWEEN  
 COUNTRIES''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-
-                    ]
-                ),
-                SizedBox(
-                  height: 800,
-                  width: 50, //use the function do adapt screens
-                ),
-              ]
-          ),
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+            ]),
+            SizedBox(
+              height: 800,
+              width: 50, //use the function do adapt screens
+            ),
+          ]),
         ],
       ),
     );
   }
 }
-
-
 
 class _TerceiraTelaQueApareceMonitor extends StatelessWidget {
   double espacoVertical = 30;
@@ -230,85 +237,90 @@ class _TerceiraTelaQueApareceMonitor extends StatelessWidget {
       child: Column(
         children: <Widget>[
           SizedBox(
-            height: 200,
-            width: 750, //use the function do adapt screens
-            child: Center(
-                child:Text ('LIFECOIN', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 90.0,fontWeight: FontWeight.bold, ))
-            )),
-
-          Row(
-              children: <Widget>[
-                SizedBox(
-                  height: 800,
-                  width: 50,
-                ),
-                SizedBox(
-                  height: 800,
-                  width: 650,
-                  child: Image.asset('ImagehandsUpCopy.jpeg'),
-                ),
-                SizedBox(
-                  height: 800,
-                  width: 100,
-                ),
-                Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-
-                    children: <Widget>[
-                      Text(
-                          '''PROJECT 
+              height: 200,
+              width: 750, //use the function do adapt screens
+              child: Center(
+                  child: Text('LIFECOIN',
+                      style: TextStyle(
+                        color: Color(0xff4cf2c7),
+                        fontSize: 90.0,
+                        fontWeight: FontWeight.bold,
+                      )))),
+          Row(children: <Widget>[
+            SizedBox(
+              height: 800,
+              width: 50,
+            ),
+            SizedBox(
+              height: 800,
+              width: 650,
+              child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+            ),
+            SizedBox(
+              height: 800,
+              width: 100,
+            ),
+            Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+              Text('''PROJECT 
 OBJECTIVES''',
-                          style: TextStyle(color: Color(0xff4cf2c7), fontSize: 90.0,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>MAKING THE CURRENT SOCIETY
+                  style: TextStyle(
+                    color: Color(0xff4cf2c7),
+                    fontSize: 90.0,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>MAKING THE CURRENT SOCIETY
  MORE EQUAL.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold,)
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>GIVE MORE OPPORTUNITIES TO 
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>GIVE MORE OPPORTUNITIES TO 
 PEOPLEIN NEED.''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>REDUCE HUNGER                           ''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-                      Text(
-                          '''>BREAKING BARRIERS BETWEEN  
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>REDUCE HUNGER                           ''',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+              Text('''>BREAKING BARRIERS BETWEEN  
 COUNTRIES''',
-                          style: TextStyle(color: Colors.grey, fontSize: tamanhoDaLetraDescricao,fontWeight: FontWeight.bold, )
-                      ),
-                      SizedBox(
-                        height: espacoHorizontal,
-                        width: 100,
-                      ),
-
-                    ]
-                ),
-                SizedBox(
-                  height: 800,
-                  width: 50, //use the function do adapt screens
-                ),
-              ]
-          ),
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: tamanhoDaLetraDescricao,
+                    fontWeight: FontWeight.bold,
+                  )),
+              SizedBox(
+                height: espacoHorizontal,
+                width: 100,
+              ),
+            ]),
+            SizedBox(
+              height: 800,
+              width: 50, //use the function do adapt screens
+            ),
+          ]),
         ],
       ),
     );
