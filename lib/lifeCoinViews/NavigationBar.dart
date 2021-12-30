@@ -49,26 +49,6 @@ class _NavigationBarCelular extends StatelessWidget {
             height: 100,
             width: 350,
           ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      '),
-          ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.youtube, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
-          ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
-          ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
-          ),
-          TextButton.icon(onPressed: _launchURLTelegram,
-              icon:  Icon(FontAwesomeIcons.telegram, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('')
-          ),
           SizedBox(
             height: 100,
             width: 40,
@@ -84,7 +64,7 @@ class _NavigationBarCelular extends StatelessWidget {
                 padding: EdgeInsets.all(20) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLPancake();
             },
             child: Text('    BUY    ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -131,24 +111,20 @@ class _NavigationBarTabletTablet extends StatelessWidget {
             height: 100,
             width: 60,
           ),
-          TextButton.icon(onPressed: _launchURL,
-            icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 45.0),
-            label: Text('    '),
+          TextButton.icon(onPressed: _launchURLTwitter,
+            icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 60.0),
+            label: Text('      '),
           ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.youtube, color: Color(0xff4cf2c7), size: 45.0),
-              label: Text('    ')
+          TextButton.icon(onPressed: _launchURLSnap,
+              icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 60.0),
+              label: Text('      ')
           ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 45.0),
-              label: Text('    ')
-          ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 45.0),
-              label: Text('    ')
+          TextButton.icon(onPressed: _launchURLInsta,
+              icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 60.0),
+              label: Text('      ')
           ),
           TextButton.icon(onPressed: _launchURLTelegram,
-              icon:  Icon(FontAwesomeIcons.telegram, color: Color(0xff4cf2c7), size: 45.0),
+              icon:  Icon(FontAwesomeIcons.telegram, color: Color(0xff4cf2c7), size: 60.0),
               label: Text('')
           ),
           SizedBox(
@@ -166,7 +142,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
                 padding: EdgeInsets.all(20) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLPancake();
             },
             child: Text('   BUY   ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -214,19 +190,15 @@ class _NavigationBarMonitor extends StatelessWidget {
             height: 100,
             width: 350,
           ),
-          TextButton.icon(onPressed: _launchURL,
+          TextButton.icon(onPressed: _launchURLTwitter,
             icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 60.0),
             label: Text('      '),
           ),
-          TextButton.icon(onPressed: _launchURL,
-              icon:  Icon(FontAwesomeIcons.youtube, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
-          ),
-          TextButton.icon(onPressed: _launchURL,
+          TextButton.icon(onPressed: _launchURLSnap,
               icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 60.0),
               label: Text('      ')
           ),
-          TextButton.icon(onPressed: _launchURL,
+          TextButton.icon(onPressed: _launchURLInsta,
               icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 60.0),
               label: Text('      ')
           ),
@@ -249,7 +221,7 @@ class _NavigationBarMonitor extends StatelessWidget {
                 padding: EdgeInsets.all(20) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLPancake();
             },
             child: Text('    BUY    ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -263,8 +235,19 @@ class _NavigationBarMonitor extends StatelessWidget {
 
 
 
-void _launchURL() async {
-  const url = 'https://www.youtube.com/';
+
+
+void _launchURLTelegram() async {
+  const url = 'https://linktr.ee/LifeCoinOfficial';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+void _launchURLTwitter() async {
+  const url = 'https://mobile.twitter.com/LifeCoin7';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -273,8 +256,28 @@ void _launchURL() async {
 }
 
 
-void _launchURLTelegram() async {
-  const url = 'https://linktr.ee/Lifecoin';
+void _launchURLSnap() async {
+  const url = 'https://www.snapchat.com/add/life_coin?share_id=leTFDFaMYVg&locale=en-US';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+
+void _launchURLInsta() async {
+  const url = 'https://instagram.com/lifecoin.official?utm_medium=copy_link';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+
+void _launchURLPancake() async {
+  const url = 'https://pancakeswap.finance/';
   if (await canLaunch(url)) {
     await launch(url);
   } else {

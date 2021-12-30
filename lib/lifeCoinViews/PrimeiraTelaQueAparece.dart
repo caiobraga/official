@@ -54,7 +54,7 @@ PROJECT FOR DONATIONS''',
                     padding: EdgeInsets.all(30) //content padding inside button
                 ),
                 onPressed: (){
-                  _launchURL();
+                  _launchURLHowToBuy();
                 },
                 child: Text('            HOW TO BUY            ',
                     style: TextStyle(color: Color(0xff4cf2c7),
@@ -75,7 +75,7 @@ PROJECT FOR DONATIONS''',
                 padding: EdgeInsets.all(30) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLWhitepapers();
             },
             child: Text('  READ THE WHITEPAPER  ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -96,7 +96,7 @@ PROJECT FOR DONATIONS''',
                 padding: EdgeInsets.all(30) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLPancakeBuyHere();
             },
             child: Text('               BUY HERE               ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -117,7 +117,7 @@ PROJECT FOR DONATIONS''',
                 padding: EdgeInsets.all(30) //content padding inside button
             ),
             onPressed: (){
-              _launchURL();
+              _launchURLAllsocialmedias();
             },
             child: Text('    OUR SOCIAL MEDIAS     ',
                 style: TextStyle(color: Color(0xff4cf2c7),
@@ -188,7 +188,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(24) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLHowToBuy();
                   },
                   child: Text('            HOW TO BUY            ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -209,7 +209,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(24) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLWhitepapers();
                   },
                   child: Text('  READ THE WHITEPAPER  ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -230,7 +230,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(24) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLPancakeBuyHere();
                   },
                   child: Text('               BUY HERE               ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -251,7 +251,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(24) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLAllsocialmedias();
                   },
                   child: Text('    OUR SOCIAL MEDIAS     ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -325,7 +325,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(30) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLHowToBuy();
                   },
                   child: Text('            HOW TO BUY            ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -346,7 +346,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(30) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLWhitepapers();
                   },
                   child: Text('  READ THE WHITEPAPER  ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -367,7 +367,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(30) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLPancakeBuyHere();
                   },
                   child: Text('               BUY HERE               ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -388,7 +388,7 @@ FOR DONATIONS''',
                       padding: EdgeInsets.all(30) //content padding inside button
                   ),
                   onPressed: (){
-                    _launchURL();
+                    _launchURLAllsocialmedias();
                   },
                   child: Text('    OUR SOCIAL MEDIAS     ',
                       style: TextStyle(color: Color(0xff4cf2c7),
@@ -409,8 +409,8 @@ FOR DONATIONS''',
 }
 
 
-void _launchURL() async {
-  const url = 'https://www.youtube.com/';
+void _launchURLHowToBuy() async {
+  const url = 'https://linktr.ee/Lifecoin_supplementaryInfo';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -419,8 +419,8 @@ void _launchURL() async {
 }
 
 
-void _launchURLTablet() async {
-  const url = 'https://www.youtube.com/';
+void _launchURLAllsocialmedias() async {
+  const url = 'https://linktr.ee/Lifecoin';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -428,8 +428,8 @@ void _launchURLTablet() async {
   }
 }
 
-void _launchURLMonitor() async {
-  const url = 'https://www.youtube.com/';
+void _launchURLPancakeBuyHere() async {
+  const url = 'https://pancakeswap.finance/';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -437,3 +437,12 @@ void _launchURLMonitor() async {
   }
 }
 
+
+void _launchURLWhitepapers() async {
+  const url = 'https://linktr.ee/Lifecoin_WhitePapers';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}

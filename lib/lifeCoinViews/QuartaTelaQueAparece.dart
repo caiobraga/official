@@ -218,7 +218,7 @@ CHARITY.''',
                       Text(
 
                           '''THE SAFETY FOR 
-FOR OUR TOKEN  
+OUR TOKEN  
 IS PROVIDED BY  
 BINANCE'S BLOCKCHAIN.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
@@ -390,7 +390,7 @@ class _QuartaTelaQueApareceTablet extends StatelessWidget {
                             ),
 
                             Text(
-                                'RENDA PASSIVA',
+                                'PASSIVE INCOME',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -402,10 +402,10 @@ class _QuartaTelaQueApareceTablet extends StatelessWidget {
                         width: 15,),
                       Text(
 
-                          '''1% DE CADA TRANSAÇÃO
-É DISTRIBUÍDO 
-PROPORCIONLAMENTE 
-ENTRE OS HOLDERS.''',
+                          '''1% OF EACH TRANSACTION
+WILL BE  
+PROPORTIONALLY 
+GIVEN TO HOLDERS.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -446,10 +446,10 @@ ENTRE OS HOLDERS.''',
                         width: 15,),
                       Text(
 
-                          '''FIQUE POR DENTRO
-DE TUDO QUE 
-ACONTECE 
-NO PROJETO. ''',
+                          '''FOLLOW CLOSELY
+EVERYTHING 
+THAT HAPPENS  
+IN THE PROJECT. ''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -492,7 +492,7 @@ NO PROJETO. ''',
                             ),
 
                             Text(
-                                'DOAÇÕES',
+                                'DONATIONS',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -504,10 +504,10 @@ NO PROJETO. ''',
                         width: 15,),
                       Text(
 
-                          '''2% DE CADA 
-TRANSAÇÃO IRÃO 
-PARA INSTITUIÇÕES
-DE CARIDADE.''',
+                          '''3% OF EACH 
+TRANSACTION WILL  
+BE SENT TO
+CHARITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -534,7 +534,7 @@ DE CARIDADE.''',
                             ),
 
                             Text(
-                                'CRIPTOGRAFIA',
+                                'CRYPTOGRAPHY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -546,10 +546,10 @@ DE CARIDADE.''',
                         width: 15,),
                       Text(
 
-                          '''NOSSO TOKEN É MUITO
-SEGURO, A BLOCKCHAIN DA 
-BINANCE É A MAIS USADA 
-PARA A CRIAÇÃO DE DEFIs.''',
+                          '''THE SAFETY FOR 
+OUR TOKEN  
+IS PROVIDED BY  
+BINANCE'S BLOCKCHAIN.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -595,7 +595,7 @@ PARA A CRIAÇÃO DE DEFIs.''',
                             ),
 
                             Text(
-                                'LIQUIDEZ',
+                                'LIQUIDITY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -607,10 +607,10 @@ PARA A CRIAÇÃO DE DEFIs.''',
                         width: 15,),
                       Text(
 
-                          '''5% DE CADA 
-TRANSAÇÃO SERÃO 
-USADOS PARA 
-GERAR LIQUIDEZ .''',
+                          '''5% OF EACH 
+TRANSACTION WILL  
+BE USED TO 
+GENERATE LIQUIDITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -637,7 +637,7 @@ GERAR LIQUIDEZ .''',
                             ),
 
                             Text(
-                                'IGUALDADE',
+                                'EQUALITY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -649,10 +649,10 @@ GERAR LIQUIDEZ .''',
                         width: 15,),
                       Text(
 
-                          '''NÓS QUEREMOS USAR
-O NOSSO TOKEN PARA
-TONAR O MUNDO MAIS 
-IGUALITÁRIO.''',
+                          '''WE AIM TO USE
+OUR TOKEN TO
+INCREASE THE 
+EQUALITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -741,7 +741,7 @@ class _QuartaTelaQueApareceMonitor extends StatelessWidget {
                       ),
 
                       Text(
-                  'RENDA PASSIVA',
+                  'PASSIVE INCOME',
                     style: TextStyle(color: Color(0xff4cf2c7),
                       fontSize: tamanhoDoSubtitulo,
                       fontWeight: FontWeight.bold, )
@@ -753,10 +753,10 @@ class _QuartaTelaQueApareceMonitor extends StatelessWidget {
                           width: 15,),
                       Text(
 
-                          '''1% DE CADA TRANSAÇÃO
-É DISTRIBUÍDO 
-PROPORCIONLAMENTE 
-ENTRE OS HOLDERS.''',
+                          '''1% OF EACH TRANSACTION
+WILL BE  
+PROPORTIONALLY 
+GIVEN TO HOLDERS.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -797,10 +797,10 @@ ENTRE OS HOLDERS.''',
                         width: 15,),
                       Text(
 
-                          '''FIQUE POR DENTRO
-DE TUDO QUE 
-ACONTECE 
-NO PROJETO. ''',
+                          '''FOLLOW CLOSELY
+EVERYTHING 
+THAT HAPPENS  
+IN THE PROJECT. ''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -829,7 +829,7 @@ NO PROJETO. ''',
                             ),
 
                             Text(
-                                'DOAÇÕES',
+                                'DONATIONS',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -841,10 +841,10 @@ NO PROJETO. ''',
                         width: 15,),
                       Text(
 
-                          '''2% DE CADA 
-TRANSAÇÃO IRÃO 
-PARA INSTITUIÇÕES
-DE CARIDADE.''',
+                          '''3% OF EACH 
+TRANSACTION WILL  
+BE SENT TO
+CHARITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -883,7 +883,7 @@ DE CARIDADE.''',
                             ),
 
                             Text(
-                                'CRIPTOGRAFIA',
+                                'CRYPTOGRAPHY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -895,10 +895,10 @@ DE CARIDADE.''',
                         width: 15,),
                       Text(
 
-                          '''NOSSO TOKEN É MUITO
-SEGURO, A BLOCKCHAIN DA 
-BINANCE É A MAIS USADA 
-PARA A CRIAÇÃO DE DEFIs.''',
+                          '''THE SAFETY FOR 
+OUR TOKEN  
+IS PROVIDED BY  
+BINANCE'S BLOCKCHAIN.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -927,7 +927,7 @@ PARA A CRIAÇÃO DE DEFIs.''',
                             ),
 
                             Text(
-                                'LIQUIDEZ',
+                                'LIQUIDITY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -939,10 +939,10 @@ PARA A CRIAÇÃO DE DEFIs.''',
                         width: 15,),
                       Text(
 
-                          '''5% DE CADA 
-TRANSAÇÃO SERÃO 
-USADOS PARA 
-GERAR LIQUIDEZ .''',
+                          '''5% OF EACH 
+TRANSACTION WILL  
+BE USED TO 
+GENERATE LIQUIDITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
@@ -969,7 +969,7 @@ GERAR LIQUIDEZ .''',
                             ),
 
                             Text(
-                                'IGUALDADE',
+                                'EQUALITY',
                                 style: TextStyle(color: Color(0xff4cf2c7),
                                   fontSize: tamanhoDoSubtitulo,
                                   fontWeight: FontWeight.bold, )
@@ -981,10 +981,10 @@ GERAR LIQUIDEZ .''',
                         width: 15,),
                       Text(
 
-                          '''NÓS QUEREMOS USAR
-O NOSSO TOKEN PARA
-TONAR O MUNDO MAIS 
-IGUALITÁRIO.''',
+                          '''WE AIM TO USE
+OUR TOKEN TO
+INCREASE THE 
+EQUALITY.''',
                           style: TextStyle(color: Color(0xff4cf2c7),
                             fontSize: tamanhoDaLetraDescricao,
                             fontWeight: FontWeight.bold,
