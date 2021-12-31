@@ -27,8 +27,11 @@ class _TerceiraTelaQueApareceCelular extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 800,
+      width: MediaQuery.of(context).size.width,
       color: Colors.black,
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           SizedBox(
               height: 65,
@@ -41,19 +44,11 @@ class _TerceiraTelaQueApareceCelular extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       )))),
           SizedBox(
-            height: 0,
-            width: 50,
-          ),
-          SizedBox(
             height: 300,
             width: 200,
-            child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+            child: Image.asset('assets/ImageHandsUpCopy.jpeg'),
           ),
-          SizedBox(
-            height: 0,
-            width: 100,
-          ),
-          Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+          Column(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.spaceAround, children: <Widget>[
             Text('''PROJECT 
 OBJECTIVES''',
                 style: TextStyle(
@@ -104,15 +99,7 @@ COUNTRIES''',
                   fontSize: tamanhoDaLetraDescricao,
                   fontWeight: FontWeight.bold,
                 )),
-            SizedBox(
-              height: espacoHorizontal,
-              width: 100,
-            ),
           ]),
-          SizedBox(
-            height: 800,
-            width: 50, //use the function do adapt screens
-          ),
         ],
       ),
     );
@@ -141,19 +128,11 @@ class _TerceiraTelaQueApareceTablet extends StatelessWidget {
                         fontSize: 80.0,
                         fontWeight: FontWeight.bold,
                       )))),
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-            SizedBox(
-              height: 800,
-              width: 50,
-            ),
+          Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.spaceAround, children: <Widget>[
             SizedBox(
               height: 500,
               width: 406, //use the function do adapt screens
-              child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
-            ),
-            SizedBox(
-              height: 500,
-              width: 62,
+              child: Image.asset('assets/ImageHandsUpCopy.jpeg'),
             ),
             Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
               Text('''PROJECT 
@@ -206,15 +185,7 @@ COUNTRIES''',
                     fontSize: tamanhoDaLetraDescricao,
                     fontWeight: FontWeight.bold,
                   )),
-              SizedBox(
-                height: espacoHorizontal,
-                width: 100,
-              ),
             ]),
-            SizedBox(
-              height: 800,
-              width: 50, //use the function do adapt screens
-            ),
           ]),
         ],
       ),
@@ -246,21 +217,13 @@ class _TerceiraTelaQueApareceMonitor extends StatelessWidget {
                         fontSize: 90.0,
                         fontWeight: FontWeight.bold,
                       )))),
-          Row(children: <Widget>[
-            SizedBox(
-              height: 800,
-              width: 50,
-            ),
+          Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.spaceAround, children: <Widget>[
             SizedBox(
               height: 800,
               width: 650,
-              child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+              child: Image.asset('assets/ImageHandsUpCopy.jpeg'),
             ),
-            SizedBox(
-              height: 800,
-              width: 100,
-            ),
-            Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Column(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.spaceAround, children: <Widget>[
               Text('''PROJECT 
 OBJECTIVES''',
                   style: TextStyle(

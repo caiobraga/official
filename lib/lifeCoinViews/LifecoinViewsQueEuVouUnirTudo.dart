@@ -9,30 +9,20 @@ import 'SegundaTelaQueAparece.dart';
 import 'SegundaTelaQueAparecePartDeBaixo.dart';
 import 'TerceiraTelaQueAparece.dart';
 
-class LifeCoinViews extends StatelessWidget{
+class LifeCoinViews extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-            child:(Column
-              (children:[
-
-              BlankSpaceAtTheBeginning(),
-              BarraDeNavegacao(),
-              PrimeiraTelaQueAparece(),
-              SegundaTelaQueAparece(),
-              SegundaTelaQueAparecePartDeBaixo(),
-              TerceiraTelaQueAparece(),
-              QuartaTelaQueAparece(),
-              QuintaTelaQueAparece(),
-    ]
-    )
-    )
-        )
-    );
+            child: (Column(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.center, children: [
+      BlankSpaceAtTheBeginning(),
+      BarraDeNavegacao(),
+      PrimeiraTelaQueAparece(),
+      SegundaTelaQueAparece(),
+      SegundaTelaQueAparecePartDeBaixo(),
+      TerceiraTelaQueAparece(),
+      QuartaTelaQueAparece(),
+      QuintaTelaQueAparece(),
+    ]))));
   }
-
 }
-
-
-
