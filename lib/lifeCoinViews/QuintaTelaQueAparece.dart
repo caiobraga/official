@@ -61,7 +61,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
           ),
           Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -71,7 +71,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -81,7 +81,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -91,7 +91,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -101,7 +101,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -111,7 +111,7 @@ class _QuintaTelaQueAparece extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -162,7 +162,7 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -172,7 +172,7 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -182,43 +182,7 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-          ]),
-          SizedBox(
-            height: espacoHorizontal,
-            width: 800,
-          ),
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -234,7 +198,7 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -244,7 +208,7 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -254,7 +218,43 @@ class _QuintaTelaQueApareceTablet extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+          ]),
+          SizedBox(
+            height: espacoHorizontal,
+            width: 800,
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -305,7 +305,7 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -315,7 +315,7 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -325,43 +325,7 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-          ]),
-          SizedBox(
-            height: espacoHorizontal,
-            width: 800,
-          ),
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
-              width: larguraDaImagem,
-              height: alturaDaImagem,
-              fit: BoxFit.cover,
-            ),
-            SizedBox(
-              height: alturaDaImagem,
-              width: espacoVertical,
-            ),
-            Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -377,7 +341,7 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -387,7 +351,7 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,
@@ -397,7 +361,43 @@ class _QuintaTelaQueApareceMonitor extends StatelessWidget {
               width: espacoVertical,
             ),
             Image.asset(
-              'GreyImageForInstitutions.jpeg',
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+          ]),
+          SizedBox(
+            height: espacoHorizontal,
+            width: 800,
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
+              width: larguraDaImagem,
+              height: alturaDaImagem,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(
+              height: alturaDaImagem,
+              width: espacoVertical,
+            ),
+            Image.asset(
+              'assets/GreyImageForInstitutions.jpeg',
               width: larguraDaImagem,
               height: alturaDaImagem,
               fit: BoxFit.cover,

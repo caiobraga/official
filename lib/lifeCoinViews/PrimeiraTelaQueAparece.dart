@@ -123,7 +123,7 @@ PROJECT FOR DONATIONS''',
               SizedBox(
                 height: 450,
                 width: 500,
-                child: Image.asset('ImagemPrincipalLifecoincopy.jpeg'),
+                child: Image.asset('assets/ImagemPrincipalLifecoincopy.jpeg'),
               ),
             ],
           ),
@@ -239,12 +239,13 @@ FOR DONATIONS''',
             width: 50,
           ),
           Center(
+              child: SizedBox(
             child: Image.asset(
               'ImagemLifeCoinCaixa.jpeg',
               height: 500,
               width: 500,
             ),
-          ),
+          )),
         ],
       ),
     );
@@ -361,10 +362,12 @@ FOR DONATIONS''',
             ),
           ]),
           Center(
-            child: Image.asset(
-              'ImagemLifeCoinCaixa.jpeg',
-              height: 710,
-              width: 710,
+            child: SizedBox(
+              child: Image.asset(
+                'assets/ImagemLifeCoinCaixa.jpeg',
+                height: 710,
+                width: 710,
+              ),
             ),
           ),
         ],
