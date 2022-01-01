@@ -23,7 +23,7 @@ class _PrimeiraTelaQueApareceCelular extends PrimeiraTelaQueAparece {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 1070,
+      height: 1170,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -34,10 +34,11 @@ class _PrimeiraTelaQueApareceCelular extends PrimeiraTelaQueAparece {
             children: <Widget>[
               SizedBox(
                 height: 180,
-                width: 500,
+                width: MediaQuery.of(context).size.width,
                 child: Center(
                     child: AutoSizeText('''WE ARE THE BIGGEST 
 PROJECT FOR DONATIONS''',
+                        textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Color(0xff4cf2c7),
                           fontSize: 30.0,
@@ -47,6 +48,7 @@ PROJECT FOR DONATIONS''',
               ElevatedButton(
                 //Use opacity
                 style: ElevatedButton.styleFrom(
+                    maximumSize: MediaQuery.of(context).size,
                     primary: Colors.black, //background color of button
                     side: BorderSide(
                       width: 3,
@@ -61,7 +63,7 @@ PROJECT FOR DONATIONS''',
                 onPressed: () {
                   _launchURLHowToBuy();
                 },
-                child: Text('            HOW TO BUY            ', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
+                child: Text('HOW TO BUY', textAlign: TextAlign.center, style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
               ),
               SizedBox(
                 height: 30,
@@ -69,6 +71,7 @@ PROJECT FOR DONATIONS''',
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
+                    maximumSize: MediaQuery.of(context).size,
                     primary: Colors.black, //background color of button
                     side: BorderSide(width: 3, color: Color(0xff4cf2c7)), //border width and color
                     elevation: 3, //elevation of button
@@ -80,7 +83,8 @@ PROJECT FOR DONATIONS''',
                 onPressed: () {
                   _launchURLWhitepapers();
                 },
-                child: Text('  READ THE WHITEPAPER  ', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
+                child: Text('READ THE WHITEPAPER',
+                    textAlign: TextAlign.center, style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
               ),
               SizedBox(
                 height: 30,
@@ -88,6 +92,7 @@ PROJECT FOR DONATIONS''',
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
+                    maximumSize: MediaQuery.of(context).size,
                     primary: Colors.black, //background color of button
                     side: BorderSide(width: 3, color: Color(0xff4cf2c7)), //border width and color
                     elevation: 3, //elevation of button
@@ -99,7 +104,7 @@ PROJECT FOR DONATIONS''',
                 onPressed: () {
                   _launchURLPancakeBuyHere();
                 },
-                child: Text('               BUY HERE               ', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
+                child: Text('BUY HERE', textAlign: TextAlign.center, style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
               ),
               SizedBox(
                 height: 30,
@@ -107,6 +112,7 @@ PROJECT FOR DONATIONS''',
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
+                    maximumSize: MediaQuery.of(context).size,
                     primary: Colors.black, //background color of button
                     side: BorderSide(width: 3, color: Color(0xff4cf2c7)), //border width and color
                     elevation: 3, //elevation of button
@@ -118,11 +124,17 @@ PROJECT FOR DONATIONS''',
                 onPressed: () {
                   _launchURLAllsocialmedias();
                 },
-                child: Text('    OUR SOCIAL MEDIAS     ', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0, fontWeight: FontWeight.bold)),
+                child: Text('OUR SOCIAL MEDIAS',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Color(0xff4cf2c7),
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                    )),
               ),
               SizedBox(
                 height: 450,
-                width: 500,
+                width: MediaQuery.of(context).size.width / 2,
                 child: Image.asset('assets/ImagemPrincipalLifecoincopy.jpeg'),
               ),
             ],
