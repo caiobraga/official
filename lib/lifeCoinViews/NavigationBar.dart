@@ -26,18 +26,24 @@ class _NavigationBarCelular extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.black,
-      height: 100,
-      width: MediaQuery.of(context).size.width,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Image.asset('assets/LifecoinLogocopy.jpeg'),
-          Text('LIFECOIN', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 45.0, fontWeight: FontWeight.bold)),
-        ],
-      ),
-    );
+        color: Colors.black,
+        width: MediaQuery.of(context).size.width,
+        child: Wrap(
+          alignment: WrapAlignment.center,
+          direction: Axis.horizontal,
+          children: [
+            Column(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  child: Image.asset('assets/LifecoinLogocopy.jpeg'),
+                ),
+                Text('LIFECOIN', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 45.0, fontWeight: FontWeight.bold)),
+              ],
+            )
+          ],
+        ));
   }
 }
 

@@ -22,22 +22,26 @@ class _PrimeiraTelaQueApareceCelular extends StatelessWidget {
     return Container(
       color: Colors.black,
       height: 600,
+      width: MediaQuery.of(context).size.width,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Center(
-                  child: Text('WHO WE ARE',
-                      style: TextStyle(
-                        color: Color(0xff4cf2c7),
-                        fontSize: 40,
-                        fontWeight: FontWeight.bold,
-                      ))),
+                child: Text('WHO WE ARE',
+                    style: TextStyle(
+                      color: Color(0xff4cf2c7),
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
+                    )),
+              ),
               SizedBox(
                   height: 130,
-                  width: 280,
+                  width: MediaQuery.of(context).size.width / 2,
                   child: Center(
                       child: Text('WE ARE REALLY FOCUSED ON DONATIONS',
                           style: TextStyle(
@@ -47,12 +51,12 @@ class _PrimeiraTelaQueApareceCelular extends StatelessWidget {
                           )))),
               SizedBox(
                 height: 300,
-                width: 280,
+                width: MediaQuery.of(context).size.width / 2,
                 child: Image.asset('assets/binancelogo.jpeg'),
               ),
               SizedBox(
                   height: 100,
-                  width: 280,
+                  width: MediaQuery.of(context).size.width / 2,
                   child: Center(
                       child: Text('WE AIM TO PROMOTE EQUALITY IN THE WORLD',
                           style: TextStyle(
